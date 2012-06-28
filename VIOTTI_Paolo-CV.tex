@@ -1,0 +1,72 @@
+\documentclass[9pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                  % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                    % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.82]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						    % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}     % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                         % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Paolo}
+\familyname{VIOTTI}
+%\title{Resumé title (optional)}                % optional, remove the line if not wanted
+\address{6, via Soprana}{12040 Sanfr\'{e}, Italy}      % optional, remove the line if not wanted
+\mobile{+39 3285777380}                         % optional, remove the line if not wanted
+%\phone{phone (optional)}                       % optional, remove the line if not wanted
+%\fax{fax (optional)}                           % optional, remove the line if not wanted
+\email{paolo.viotti@gmail.com}                  % optional, remove the line if not wanted
+%\extrainfo{age: 23 years} % optional, remove the line if not wanted
+\photo[64pt]{images/pv_small.jpg}                          % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Telematics engineer keen to find a position \\in the networking and security IT fields}                 % optional, remove the line if not wanted
+\quote{networking and information systems engineer \\with expertise in telecommunications and security}
+%\quote{A passionate developer ninja. I like working with different kind of languages and framework, scaling from mobile device apps to large, enterprise-ready applications.}
+
+%\nopagenumbers{}                               % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\begin{document}
+
+\maketitle
+
+\section{Education}
+\cventry{2008 -- 2011}{Master\textquoteright s Degree in Computers and Communication Networks}{\newline Telecom ParisTech, Polytechnic of Turin, EURECOM}{}{}{} %expected Fall 2010
+\cvline{grade:}{\small 110/110, Summa Cum Laude}
+\cventry{2005 -- 2008}{Bachelor Degree in Telematics Engineering}{\newline Polytechnic of Turin}{Turin (Italy)}{}{}
+\cvline{grade:}{\small 110/110, Summa Cum Laude}
+\cventry{2001 -- 2005}{High School Scientific Diploma}{\newline Liceo Scientifico ``G. Giolitti''}{Bra (Italy)}{}{}
+
+\section{Professional Experience}
+\cventry{March 2011 -- *}{Junior Architect}{Reply S.p.A.}{Turin (Italy)}{}{Helped designing and developed an italian cross telecom operator mobile payment platform (\url{www.mobilepay.it})}
+\cventry{March -- August 2010}{Research Assistant}{Orange Labs}{Issy-les-Moulineaux (France)}{}{Studied and tested transport protocols performance in content-centric networks (CCNx project)}  
+\cventry{July -- Sept. 2009}{Software Engineer}{EURECOM}{Sophia Antipolis (France)}{}{Designed and developed a client for a P2P social network (SocialNets European project) (\url{www.safebook.us})}                
+\cventry{April -- July 2008}{Software Developer}{System Service S.r.l.}{Fossano (Italy)}{}{Developed a driver module to interface a time card reader to a management software}
+%\cventry{July -- Sept. 2003}{Software Developer}{Tesi S.p.A.}{Bra (Italy)}{}{Developed a flexible text crawler to manage and substitute strings in code files}                
+% salone del gusto con Slow food, collaborazione con il Politecnico
+
+\section{Technical skills}
+\cvline{General skills}{Solid knowledge of networking protocols and distributed development \newline Good understanding of security insights}
+\cvline{Programming Languages}{Good knowledge of Java, C, , Python, Bash scripting, C, Javascript\#, VB .Net \newline Basic knowledge of C++, PHP, Ruby}
+\cvline{Simulation tools}{Good knowledge of Matlab, R and OMNet++ network simulation framework}
+\cvline{O.S.}{Good knowledge of Unix-like and Windows environments}
+
+\section{Languages}
+\cvline{English}{Fluent - \textit{Preliminary English Test Certification ("Pass with merit")}}
+\cvline{French}{Intermediate - \textit{DELF Certification}}
+\cvline{German}{Basic}
+\cvline{Italian}{Mother tongue}
+%\cvlanguage{Italian}{Mother tongue}{Cert}
+
+\section{Other skills and interests}
+\cvline{Organisational skills}{\small Committed, innovative, hard working \newline Good team working skills. Logical, methodical mind}
+\cvline{Other experiences}{\small Worked as waiter in London during summer 2007 \newline Several experiences of voluntary work dealing with children in summer camps}
+\cvline{Hobbies}{\small Swimming, running, playing guitar}
+%\cvline{Interests}{\small Free software, ecology, philosophy}
+\cvline{References}{\small Available on request}
+
+\end{document}
