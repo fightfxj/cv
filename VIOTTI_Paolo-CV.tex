@@ -1,41 +1,28 @@
 \documentclass[9pt,a4paper]{moderncv}
 
-% moderncv themes
-%\moderncvtheme[blue]{casual}                     % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[blue]{classic}                    % idem
+%\moderncvtheme[blue]{casual}
+\moderncvtheme[blue]{classic}
 
-% character encoding
-\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[utf8]{inputenc}
 
-% adjust the page margins
 \usepackage[scale=0.82]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}						                            % if you want to change the width of the column with the dates
-%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}          % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-\AtBeginDocument{\recomputelengths}                                      % required when changes are made to page layout lengths
 
-% personal data
+\AtBeginDocument{\recomputelengths}
+
 \firstname{Paolo}
 \familyname{VIOTTI}
-%\title{Resumé title (optional)}                                        % optional, remove the line if not wanted
-\address{6, via Soprana}{12040 Sanfr\'{e}, Italy}       % optional, remove the line if not wanted
-\mobile{+39 3285777380}                                             % optional, remove the line if not wanted
-%\phone{phone (optional)}                                              % optional, remove the line if not wanted
-%\fax{fax (optional)}                                                        % optional, remove the line if not wanted
-\email{paolo.viotti@gmail.com}                                     % optional, remove the line if not wanted
-%\extrainfo{age: 23 years} % optional, remove the line if not wanted
-\photo[64pt]{images/pv_small.jpg}                               % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{Telematics engineer keen to find a position \\in the networking and security IT fields}                 % optional, remove the line if not wanted
+\address{6, via Soprana}{12040 Sanfr\'{e}, Italy}
+\mobile{+39 3285777380}
+\email{paolo.viotti@gmail.com}
+\photo[64pt]{images/pv_small.jpg}
 \quote{networking and information systems engineer \\with expertise in telecommunications and security}
-%\quote{A passionate developer ninja. I like working with different kind of languages and framework, scaling from mobile device apps to large, enterprise-ready applications.}
-
-%\nopagenumbers{}                               % uncomment to suppress automatic page numbering for CVs longer than one page
 
 \begin{document}
 
 \maketitle
 
 \section{Education}
-\cventry{2008 -- 2011}{Master\textquoteright s Degree in Computers and Communication Networks}{\newline Telecom ParisTech, Polytechnic of Turin, EURECOM}{(Italy \& France)}{}{} %expected Fall 2010
+\cventry{2008 -- 2011}{Master\textquoteright s Degree in Computers and Communication Networks}{\newline Telecom ParisTech, Polytechnic of Turin, EURECOM}{(Italy \& France)}{}{}
 \cvline{grade:}{\small 110/110 cum laude}
 \cventry{2005 -- 2008}{Bachelor Degree in Telematics Engineering}{\newline Polytechnic of Turin}{Turin (Italy)}{}{}
 \cvline{grade:}{\small 110/110 cum laude}
@@ -51,7 +38,7 @@
 \cventry{April -- July 2008}{Software Developer}{System Service S.r.l.}{Fossano (Italy)}{}{Developed a driver module to interface a time card reader to a management software}
 %\cventry{July -- Sept. 2003}{Software Developer}{Tesi S.p.A.}{Bra (Italy)}{}{Developed a flexible text crawler to manage and substitute strings in code files}                
 % Salone del Gusto con Slow food, 
-% collaborazione con PoliTo
+% Collaborazione con PoliTo
 
 \section{Technical skills}
 \cvline{General skills}{A passionate developer ninja: I like working with different kind of languages and frameworks, scaling from mobile device apps to large, enterprise-ready applications.
@@ -59,14 +46,13 @@
 					\newline Good understanding of security insights.
 					\newline Open source \& startup enthusiast, eager learner.}
 \cvline{Programming Languages}{Good knowledge of Java, C, Python, Bash scripting, Javascript, C\# \newline Basic knowledge of C++, PHP, Ruby, Perl}
-\cvline{Technologies}{Apache, MySQL, Redis, JQuery, JSON, XML, Git, \LaTeX{}, Android, SOAP \& REST WS}%, several different web frameworks ...}
+\cvline{Technologies}{Apache, MySQL, Redis, JQuery, JSON, XML, Git, \LaTeX{}, Android, SOAP \& REST WS}
 \cvline{Simulation tools}{Fair knowledge of Matlab, R and OMNet++ network simulation framework}
 \cvline{O.S.}{Good knowledge of Unix-like and Windows environments}
 
 \clearpage
 
 \section{Relevant Coursework}
-%\subsection{University of California, Los Angeles}
 \cvline{Computer Science}{Distributed Software Development, Computer System Security, Software Engineering, Databases, Fundamentals of Data Mining and Machine Learning}
 \cvline{Telecom}{Signal Theory, Radiofrequency and Photonic Telecommunications, Telematics Networks and Protocols, QoS Issues in Telecom Networks, Mobile Wireless Networks}
 \cvline{others}{Entrepreneurship}
@@ -76,13 +62,11 @@
 \cvline{French}{Intermediate - \textit{DELF Certification}}
 \cvline{German}{Basic}
 \cvline{Italian}{Mother tongue}
-%\cvlanguage{Italian}{Mother tongue}{Cert}
 
 \section{Other skills and interests}
-\cvline{Organisational skills}{\small Committed, innovative, hard working \newline Good team working skills} % Methodical mind
+\cvline{Organisational skills}{\small Committed, innovative, hard working \newline Good team working skills} 
 \cvline{Other experiences}{\small Worked as waiter in London during summer 2007 \newline Several experiences of voluntary work dealing with children in summer camps}
 \cvline{Hobbies}{\small Swimming, running, playing guitar}
-%\cvline{Interests}{\small Free software, ecology, philosophy}
 \cvline{References}{\small Available upon request}
 
 \end{document}
